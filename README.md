@@ -8,7 +8,7 @@
 - [Authors](#authors)
 
 ## Description
-Hi to all! This is my implementation of the taxi service, the purpose of this project was to test the capabilities of Java Web in interaction with the MySQL database, as well as to acquire practical skills in working with GitHub and publishing the project in public access.
+Hi to all! This is my implementation of the taxi service, the purpose of this project was to test the capabilities of Java Web in interaction with the MySQL database, as well as to acquire practical skills in working with GitHub and publishing the project in public access. <hr>
 The project structure is based on 3-Tier architecture:
 1. Data Tier - MySQL DB and DAO's.
 2. Application Tier - business logic in Java services.
