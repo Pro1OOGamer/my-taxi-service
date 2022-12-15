@@ -1,13 +1,37 @@
 # my-taxi-service
 
 ## List of content
--[Description](#description)
+- [Description](#description)
+- [Stack of technologies](#stack-of-technologies)
+- [Installing](#installing)
+- [Getting started](#getting-started)
+- [Authors](#authors)
 
-# Description
-Here is my first project uploaded to GitHub. This is a primitive implementation of the taxi service, in which you can perform the following actions:
-1. Create (register) a new driver in our service and get information about all drivers already in the DB
-2. Create a car manufacturer and get information about all manufacturers already in the DB
-3. Create a new car, specifying the model and name of the manufacturer, as well as get data about all cars registered in DB
-4. Assign a specific driver for a specific car, one car can have several drivers
+## Description
+Hi to all! This is my implementation of the taxi service, the purpose of this project was to test the capabilities of Java Web in interaction with the MySQL database, as well as to acquire practical skills in working with GitHub and publishing the project in public access.
+The project structure is based on 3-Tier architecture:
+1. Data Tier - MySQL DB and DAO's.
+2. Application Tier - business logic in Java services.
+3. Presentation Tier - Servlet Controllers and JSP pages.
 
-To test the code, you need Tomcat version 9.0.50 and some time:)
+## Stack of technologies
+- Java 17.0.2
+- Servlet 4.0.1
+- MySQL 8.0.22
+- Maven 4.0.0
+- Tomcat 9.0.50
+
+## Installing
+1. Download project from this repository and add to IDE as Maven project;
+2. Add project to your IDE as Maven project;
+3. Install and configure Tomcat 9.0.50, with other versions, the work will not be correct;
+4. Install and configure MySQL;
+5. Make sure all dependencies from pom.xml are loaded;
+6. Run init_db.sql in database;
+7. Finally run it!
+
+## Getting started
+First, you must register (create a driver) and log in. Unregistered users do not have access to our service. After logging in, you have the opportunity to receive all information about drivers, car models and manufacturers. You can also create the aforementioned options yourself at your discretion and taste, as well as assign individual drivers to your cars.
+
+## Authors
+[Ivan Kharchenko](https://github.com/Pro1OOGamer)
