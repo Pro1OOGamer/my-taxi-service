@@ -22,9 +22,9 @@ The project structure is based on 3-Tier architecture:
 - JDBC
 - Maven 4.0.0
 - Tomcat 9.0.50
-- jstl 1.2
-- jsp
-- html
+- JSTL 1.2
+- JSP
+- HTML
 
 ## Installing
 1. Download project from this repository and add to IDE as Maven project;
